@@ -1,0 +1,19 @@
+version: '3.5'
+
+services:
+  crypto-bot:
+    container_name: crypto-bot
+    build: .
+    command: python src/client.py
+    volumes:
+      - ./src:/app/bot
+    ports:
+      - "8000:8000"
+    environment:
+      DISCORD_BOT_TOKEN: /var/run/secrets/discord_bot_token
+    secrets:
+      - discord_bot_token
+
+secrets:
+  discord_bot_token:
+    file: ./secrets/discord_bot_token
