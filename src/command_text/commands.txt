@@ -1,0 +1,2 @@
+.wenlambo          | Notification when you are able to buy lambo. (No joke)
+.price <TOKENNAME> | Get Price of given Token.

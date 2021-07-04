@@ -10,10 +10,12 @@ services:
     ports:
       - "8000:8000"
     environment:
-      DISCORD_BOT_TOKEN: /var/run/secrets/discord_bot_token
+      DISCORD_BOT_TOKEN: ${DISCORD_BOT_TOKEN}
+      TEST_MODE: ${TEST_MODE}
+      CMC_API_KEY: ${CMC_API_KEY}
     secrets:
       - discord_bot_token
 
 secrets:
   discord_bot_token:
-    file: ./secrets/discord_bot_token
+    file: /var/run/secrets/discord_bot_token

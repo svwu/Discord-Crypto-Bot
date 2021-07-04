@@ -1,7 +1,13 @@
 # Discord Crypto Bot
 ⚠This is a work in progress project!⚠
 
-Do not expect any stable functions, yet. 
+As this is my first python project, it will get better with any progress I make in this language :)
+This project challenges myself to learn more about python.
+
+Challenges are:
+ - Make the discord bot configureable, so you can configure any API (like CoinMarketCap)
+ - Easily add new functions 
+ - Easily change the code for your needs without touching code
 
 ## Idea of this project
 I want to build a Discord bot, which can be used to get current information about crypto currencies.

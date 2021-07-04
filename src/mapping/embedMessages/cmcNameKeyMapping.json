@@ -1,0 +1,46 @@
+{
+  "mapping": [
+    {
+      "name": "Price",
+      "key": "price",
+      "slice": 5,
+      "round": "true",
+      "additionalText": ""
+    },
+    {
+      "name": "Volume 24h",
+      "key": "volume_24h",
+      "slice": 0,
+      "round": "false",
+      "additionalText": ""
+    },
+    {
+      "name": "Change since 1 hour",
+      "key": "percent_change_1h",
+      "slice": 5,
+      "round": "false",
+      "additionalText": "%"
+    },
+    {
+      "name": "Change since 24 hours",
+      "key": "percent_change_24h",
+      "slice": 5,
+      "round": "false",
+      "additionalText": "%"
+    },
+    {
+      "name": "Change since 7 days",
+      "key": "percent_change_7d",
+      "slice": 5,
+      "round": "false",
+      "additionalText": "%"
+    },
+    {
+      "name": "Change since 30 days",
+      "key": "percent_change_30d",
+      "slice": 5,
+      "round": "false",
+      "additionalText": "%"
+    }
+  ]
+}
